@@ -1,0 +1,19 @@
+{
+
+  "manifest_version": 2,
+  "name": "Detector de Ameaças",
+  "version": "1.0",
+
+  "description": "Adiciona uma borda vermelha a todas as páginas da Web correspondentes a mozilla.org.",
+  "permissions": [
+    "webRequest",
+    "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["main.js"]
+    }
+  ]
+
+}

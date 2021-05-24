@@ -1,0 +1,19 @@
+{
+  "name": "firefox-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "firefox": "web-ext run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guidiamond/firefox-monitor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guidiamond/firefox-monitor/issues"
+  },
+  "homepage": "https://github.com/guidiamond/firefox-monitor#readme"
+}
